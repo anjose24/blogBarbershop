@@ -1,0 +1,10 @@
+.footer{
+    background-color:$eerie-black;
+    height: 80px;
+    text-align: center;
+    padding-top: 25px;
+    &__img{
+        width: 100px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,36 @@
+.article{
+    margin: 30px 0;
+
+    &__header__site{
+        color:$fuzzy-wuzzy;
+    }
+
+    &__header__title{
+        font-family: $Playfair;
+        font-size: $x-large;
+        font-style: italic;
+        font-weight: bold;
+    }
+    &__header__site {
+        font-family:$Playfair;
+        font-size: $medium;
+        color: $spanish-pink;
+    }
+}
+
+.principal{
+    margin: 80px 0;
+
+    &__parrafo {
+        line-height: 300%;
+        font-family: $Roboto;
+        font-size:$medium;
+        font-weight: lighter;
+    }
+}
+
+.paginacion{
+    background-color:$platinum;
+    height: 100px;
+    padding-top: 30px;
+}
